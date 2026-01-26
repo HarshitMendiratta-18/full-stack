@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  <script>
+    const product= {
+      name:'socks',
+      price:224
+    };
+    console.log(product);
+    console.log(product.name);
+    console.log(product.price);
+    product.name='shirt';
+    console.log(product);
+    product.newProperty=true;
+    console.log(product);
+    delete product.newProperty;
+    console.log(product);
+    console.log(typeof product);
+
+    const product2={
+      name:'Jeans',
+      size:'XL',
+      ['delievery-time']: '1 day',
+      rating: {
+        stars:4.5,
+        count:87
+      },
+      fun: function fun1(){
+        console.log('function inside object');
+      }
+    };
+    console.log(product2['name']);
+    console.log(product2['size']);
+    console.log(product2['delievery-time']);
+    console.log(product2.rating.stars);
+    product2.fun();
+
+    console.log(JSON.stringify(product2));
+    const jsonString= JSON.stringify(product2);
+    console.log(JSON.parse(jsonString));
+
+    console.log('hello'.length);
+    console.log('hello'.toUpperCase());
+
+    const object1={
+      message:'hello'
+    };
+    const object2= object1;
+    object1.message='Good Job!';
+    console.log(object1);
+
+    const object3={
+      message:'hurrah',
+      price:799
+    };
+    const{message,price}=object3;
+    console.log(message);
+    console.log(price);
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM-ex</title>
+</head>
+<body>
+  <input type="text" class="js-p" onkeyup="">
+  <p class="js-para"></p>
+  <!--<input type="text" class="js-name-input" placeholder="Type name here" onkeydown="console.log(event.key);
+  if(event.key=='Enter'){
+    display();
+  }"> -->
+  <!--<button onclick="display()">Submit</button>
+  <p class="js-name"></p> -->
+ <!-- <button onclick="flip('heads')">heads</button>
+  <button onclick="flip('tails')">tails</button>
+  <p class="js-display"></p> -->
+  <script>
+    const inputElement = document.querySelector('.js-p');
+        document.querySelector('.js-para')
+          .innerHTML = inputElement.value;
+    /*function display(){
+      const inputElement=document.querySelector('.js-name-input');
+      const name=inputElement.value;
+      console.log(document.querySelector('.js-name').innerHTML=`Your name is:${name}`);
+    };*/
+    /*function flip(choice){
+      console.log(document.querySelector('.js-display').innerHTML=`You choose ${choice}`);
+    };*/
+
+  </script>
+</body>
+</html>
