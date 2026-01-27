@@ -1,0 +1,36 @@
+CSS:Cascading style sheet:styling and appearance
+CSS depends on these 4 key factors to resolve conflicts and decide what a user actually sees.
+1:Importance & Origin (Who defined the rule?)
+2:Specificity (How precise is the selector?)
+3:Source Order (Which rule came last?)
+Different ways of adding css are:
+inline,internal,external
+in general inline has more priority than internal but if we want to mark internal as more important than inline than we use !important
+css works on ordering.
+Selectors: is a way to target html elements,ways: element,id,class,group
+id is declared by #id
+in class method css styling is done by .class
+group selector is done by ,
+google fonts is nice site for fonts
+in rgba the value of alpha decides the transparency
+hsl :hue saturation lightness (way of color)
+The width and height properties do not work on a <span> tag because, by default, it is an Inline Element.
+In CSS, elements are broadly categorized into two types: Block and Inline. The browser treats them very differently.
+Box model consists of margin,border,padding,and the actual content.it displays in rectangular box.
+Display properties:how to dsiplay different tags and their properties.
+Block elements(div,p,h1 etc):
+properties: (1) always come in new line
+(2) width taken is from extreme left to extreme right.
+(3) custom width and height are changeable
+(4) custom margin and padding are changeable
+
+Inline elements propeties: try to come in same line,width = content width,custom height,width not applicable,custom margins are not applicable but custom paddingare applicable
+inline -block is a mixture of both inline and block .it behaves like a inline but custom height and width are applicable
+
+size units: absolute and relative 
+Flexbox: tool(1d layout method) for different layouts
+ek styling se dusri styling pe shift krna is called animation.(series of complex movoment)(badi chiz)
+transition is moving from initial state to the final state.(choti chiz)
+for usingb transitions we have to use pseudo classes.
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form4</title>
+</head>
+<body>
+  <h1>Job Application</h1>
+  <label for="name">Name:</label>
+  <br>
+    <input type="text" id="name" name="name">
+    <br>
+    <br>
+     <label for="emailid">Email:</label>
+     <br>
+    <input type="email" id="emailid" name="emailid">
+    <br>
+    <br>
+     <label for="number">Phone:</label>
+     <br>
+    <input type="tel" id="number" name="number">
+    <br>
+    <br>
+     <label for="file1">Resume:</label>
+     <br>
+    <input type="file" id="file1" name="file1">
+    <br>
+    <br>
+    <label for="count">Experience:</label>
+    <br>
+    <input type="number" id="count" name="count" min="0" max="50">
+    <br>
+    <br>
+    <fieldset>
+      <legend>Skills:</legend>
+      <label for="checkbox1">HTML</label>
+      <input type="checkbox" name="checkbox" id="checkbox1">
+      <br>
+      <br>
+      <label for="checkbox2">CSS</label>
+    <input type="checkbox" id="checkbox2" name="checkbox2">
+    <br>
+    <br>
+    <label for="checkbox3">JavaScript</label>
+    <input type="checkbox" id="checkbox3" name="checkbox3">
+    </fieldset>
+    <br>
+    <br>
+    <label for="education">Highest Education:</label>
+    <br>
+    <select name="education" id="education">
+      <option value="high school">High School</option>
+      <option value="Bachelors">Bachelor's Degree</option>
+      <option value="phd">PHD</option>
+    </select>
+    <br>
+    <fieldset>
+      <legend>Availability:</legend>
+      <label for="radio1">Full-time</label>
+      <input type="radio" name="availability" id="radio1">
+      <br>
+      <br>
+      <label for="radio2">Part-time</label>
+      <input type="radio" name="availability" id="radio2" >
+    </fieldset>
+    <br>
+    <label for="textarea1">Comments:</label>
+    <br>
+    <textarea name="textarea1" id="textarea1"></textarea>
+    <button>Submit Application</button>
+
+  </form>
+  
+</body>
+</html>

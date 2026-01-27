@@ -1,0 +1,39 @@
+Html is a type of language which defines the structure of a website
+It defines what in a website like structure,description and labelling 
+<html> -> opening tag, </html> -> closing tag
+<!DOCTYPE html>  -> indicates the code is in html doc file and it is called a boiler plate code.
+the combination of opening tag , content, closing tag is called element.
+the metadata/SEO/title realted data is stored in the head tag.
+in heading tag h1-h6 are size related else after that h7,h8 behaves like paragraph tag
+anchor tag : a href=""
+if want to learn more about html then go to MDN reference
+lists: three types: (1) ordered list ,(2) unordered list ,(3) description list.
+in unordered list the sequence is in random order while in ordered list the sequence is not changed.
+image tag has attributes like source and alt.
+html in speed can be done by the help of (emmet).Emmet is a shortcut for a full code.
+class is used for grouping of elements.
+id se kisi bhi element ko uniquely identify krte hai.
+(word)# is used for creating the id.for multiple id's use # times
+(word). is used for creating a class.for multiple class use . many times
+div tag is a non semantic tag which doesnt provide any meaning but it is used for divison.this tag is used for wwrapping and acts like a container.
+there are two types of elements: block and inline 
+block elements woh hote hai jo next line me jate hai left to right ye sara space occupy kr lete hai.E.g. div is block element
+inline elements woh hote hai jo next line me nahi aate and ye content ke jtna hi psace occupy krte hai.E.g. span is inline element
+block element can be ocnvert into inline element and vice versa through (display) property of css.
+a tag se link hota hai koi bhi element 
+list ke andar vertical aate hai elements agr usko horizontal karna hai to (display:flex) use krte hai.
+table is the arrangement in the form of rows and columns.horizontal are rows and verical are columns.
+cell is the smallest unit of table.
+table,thead,tbody,tfoot are tags of table
+rowspan and colspan are the properties of table wich is used to expand the width of row and column respectively.
+Form is a structure whihc is used to collect the user data 
+form tag is used to create html forms for user input
+input tag is used to take input from user
+label tag is used to create labels and sctreen reader
+placeholder is the faded text inside the box.
+form elemnet includes input,label,select(drop down),option,button,textArea(for multiple lines),legend(for caption),fieldset(grouping of elements)
+
+// HEAD in html
+the content inside the head tag is not visible to us
+favicon is the display of icon , jab chrome pe title show hota hai to uske sath icon display ke liye favicon use krte hai. link:favicon se kr skte hai ham aisa
+SEO:search engine optimisation: 

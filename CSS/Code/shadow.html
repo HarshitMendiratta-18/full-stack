@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shadow</title>
+  <style>
+    .container{
+      background-color: beige;
+      height: 650px;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: aquamarine;
+      width: 330px;
+      height: 330px;
+      border: 1px solid brown;
+      margin: 5px;
+      padding: 5px;
+      box-shadow: inset 2px 2px 4px 3px green;
+    }
+    #head1{
+      text-shadow: 2px 3px 1px white ,
+                   3px 2px 1px gray ,
+                   4px 4px 2px black; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="https://static.vecteezy.com/system/resources/previews/000/397/015/original/modern-company-logo-design-vector.jpg" alt="image" width="100px">
+      <h2 id="head1">Welcome to site</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia, architecto cupiditate delectus hic totam rem accusantium quis corrupti, eaque, sapiente nemo minima voluptates beatae.</p>
+    </div>
+  </div>
+  
+</body>
+</html>
